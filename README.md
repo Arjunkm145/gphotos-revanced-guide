@@ -1,65 +1,82 @@
-# GPhotos ReVanced – Release Repository
+# 📸 Google Photos ReVanced — CLI Release
 
-This repository provides official release documentation and build instructions
-for patching Google Photos using ReVanced CLI.
+![Release](https://img.shields.io/badge/release-latest-blue)
+![Toolchain](https://img.shields.io/badge/toolchain-ReVanced%20CLI-orange)
+![Java](https://img.shields.io/badge/java-11%2B-red)
+![License](https://img.shields.io/badge/license-GPL--3.0-green)
 
-No APK files are distributed here.
-Users must build the app locally from original APKs.
+Official **release repository** for building **Google Photos ReVanced**
+using the **ReVanced CLI toolchain**.
 
----
+This repository publishes release metadata, build references, and
+reproducible commands for generating Google Photos ReVanced builds.
 
-## What is this project?
-
-This project is a release-style repository that documents the process of
-building Google Photos ReVanced using the ReVanced command-line interface.
-
-It is useful when:
-- ReVanced Manager fails
-- You want to patch the latest version
-- You prefer PC-based workflow
+> ⚠️ **No APK files are distributed in this repository.**  
+> All builds must be generated locally from original APKs.
 
 ---
 
-## Requirements
+## 🔍 Repository Purpose
 
-You need:
+This repository exists as a **release surface**, not as a build tool and not as a tutorial.
 
-- A PC (Windows / Linux / macOS)
-- Java 11 or newer
-- ReVanced CLI
-- ReVanced patches file
-- Original Google Photos APK
+It serves as:
+
+- A reference implementation for Google Photos ReVanced
+- A release tracking repository
+- A reproducible CLI-based build definition
+- A fallback when ReVanced Manager does not support Google Photos
+
+All patching is performed using **official ReVanced components only**.
 
 ---
 
-## Official Downloads
+## 📦 Scope
 
-Java:
-https://www.azul.com/downloads/
+### This repository provides:
+- Release metadata
+- CLI build command reference
+- Toolchain definitions
+- Reproducible build workflow
 
-ReVanced CLI:
+### This repository does NOT provide:
+- Prebuilt APKs
+- Modded binaries
+- Redistribution of proprietary software
+
+---
+
+## 🛠 Toolchain
+
+The official toolchain used for all releases:
+
+| Component | Purpose |
+|----------|--------|
+| Java 11+ | Runtime for CLI |
+| ReVanced CLI | Core patching engine |
+| ReVanced patches | Patch definitions |
+| Original APK | Base input |
+
+---
+
+## 🔗 Official Upstream Sources
+
+ReVanced CLI:  
 https://github.com/ReVanced/revanced-cli/releases
 
-ReVanced patches:
+ReVanced patches:  
 https://github.com/ReVanced/revanced-patches/releases
 
-Original APK sources:
+Original APK providers:  
 https://www.apkmirror.com  
 https://apkpure.com
 
 ---
 
-## How to Build
+## 🔁 Reproducible Build Command
 
-1. Install Java
-2. Download ReVanced CLI (`revanced-cli.jar`)
-3. Download patches file (`patches.rvp`)
-4. Download original APK and rename to `input.apk`
-5. Put all files in one folder
-6. Open terminal in that folder
-7. Run:
+All releases are generated using the standard ReVanced CLI invocation:
 
 ```bash
 java -jar revanced-cli.jar patch -p patches.rvp -o Output.apk input.apk
-
 
