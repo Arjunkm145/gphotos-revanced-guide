@@ -13,10 +13,17 @@ Generated using a reproducible ReVanced CLI pipeline.
 
 ## ⬇️ Get the App
 
-| Platform | Action |
-|---------|--------|
-| GitHub | [⬇ Download Latest](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest) |
-| Obtainium | [➕ Add to Obtainium](obtainium://add?url=https://github.com/4rjunKM/Google-photos-revanced-cli) |
+<p align="center">
+
+<a href="https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest">
+  <img src="https://img.shields.io/badge/Get_on-GitHub-black?style=for-the-badge&logo=github">
+</a>
+
+<a href="obtainium://add/github/4rjunKM/Google-photos-revanced-cli">
+  <img src="https://img.shields.io/badge/Add_to-Obtainium-purple?style=for-the-badge&logo=android">
+</a>
+
+</p>
 
 ---
 
@@ -25,14 +32,14 @@ Generated using a reproducible ReVanced CLI pipeline.
 | Architecture | Recommended For | Download |
 |-------------|-----------------|----------|
 | **ARM64 (arm64-v8a)** | Most modern Android phones | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-arm64-v8a.apk) |
-| **ARMv7 (armeabi-v7a)** | Older 32-bit phones | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-armeabi-v7a.apk) |
+| **ARMv7 (armeabi-v7a)** | Older 32-bit devices | [⬇ Download](https://github.com/4rjunKM/Google-photos-revanced-cli/releases/latest/download/GooglePhotos-ReVanced-PixelSpoof-v7.60.0-armeabi-v7a.apk) |
 
 ---
 
-## 🛠 Installation Steps
+## 🛠 Installation
 
-1. Uninstall existing Google Photos (disable first if system app)
-2. Download the APK for your device architecture
+1. Uninstall existing Google Photos (disable first if it’s a system app)
+2. Download the APK that matches your CPU architecture
 3. Install the APK
 4. Open Google Photos and sign in
 5. Disable Play Store auto-updates for Google Photos
@@ -70,4 +77,3 @@ This is an **unofficial mod**.
 Google and ReVanced are not affiliated with this project.  
 All trademarks belong to their respective owners.  
 Use at your own risk.
-
