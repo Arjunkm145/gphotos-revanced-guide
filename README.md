@@ -58,6 +58,19 @@ This release provides **ARM64-only APK** with **protection patch applied**.
 
 ---
 
+## 🧰 Build Tools Used
+
+- **ReVanced CLI**  
+  https://github.com/revanced/revanced-cli
+
+- **ReVanced Patches**  
+  https://github.com/revanced/revanced-patches
+
+- **ReVanced Integrations**  
+  https://github.com/revanced/revanced-integrations
+
+---
+
 ## 📦 Project Purpose
 
 This repository is a **release distribution hub**, not a development project.
